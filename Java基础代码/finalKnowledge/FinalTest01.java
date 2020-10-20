@@ -31,7 +31,7 @@ package finalKnowledge;
  *     -帮助文档  【对开发提供帮助】
  *           注意使用时候的版本统一。
  */
-public class FinalTest01 {
+public class  FinalTest01 {
 
     public static void main(String[] args) {
 

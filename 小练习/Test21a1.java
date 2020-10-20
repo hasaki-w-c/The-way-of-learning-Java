@@ -1,4 +1,4 @@
-/*
+package com.hasaki.dayexer;/*
 多态的应用
 
 需求：

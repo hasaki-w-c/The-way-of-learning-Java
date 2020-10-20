@@ -1,3 +1,5 @@
+package com.hasaki.dayexer;
+
 public class Test16preson {
     private int age;
 

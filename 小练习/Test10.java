@@ -1,4 +1,4 @@
-/*
+package com.hasaki.dayexer;/*
 （1）创建Test10person类的对象，设置该对象的name,age,sex属性，调用study()方法，输出字符串"studying"，调用showage()方法
 显示age值，调用addage()方法给对象的age属性增加2岁。
 （2）创建第二个对象，执行上述操作，体会一个类的不同对象之间的关系

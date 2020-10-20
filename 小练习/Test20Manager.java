@@ -1,4 +1,8 @@
-public class Test20Manager extends Test20Employee{
+package com.hasaki.dayexer;
+
+import com.hasaki.dayexer.Test20Employee;
+
+public class Test20Manager extends Test20Employee {
     private double bonus;
 
     public Test20Manager() {

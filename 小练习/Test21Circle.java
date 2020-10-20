@@ -1,8 +1,8 @@
-/*
+package com.hasaki.dayexer;/*
 圆形
  */
 
-public class Test21Circle extends Test21Graphic{
+public class Test21Circle extends Test21Graphic {
     private double radius;
 
     public Test21Circle() {

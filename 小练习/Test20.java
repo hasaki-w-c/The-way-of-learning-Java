@@ -1,3 +1,5 @@
+package com.hasaki.dayexer;
+
 /*
 继承的测验
  */

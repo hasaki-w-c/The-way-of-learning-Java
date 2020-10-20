@@ -1,4 +1,6 @@
-public class Test20Employee extends Test20Person{
+package com.hasaki.dayexer;
+
+public class Test20Employee extends Test20Person {
     private double salary;
 
     public Test20Employee() {

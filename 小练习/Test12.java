@@ -1,4 +1,4 @@
-/*
+package com.hasaki.dayexer;/*
 题目：定义类Test12stu,包含三个属性：学号：num，年级：state，分数：score。
 创建20个学生对象，学号为1到20，年级和成绩都由随机数确定，打印出三年级（state为3）的学生的信息。
 

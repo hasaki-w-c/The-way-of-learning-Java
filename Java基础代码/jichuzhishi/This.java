@@ -10,12 +10,12 @@ package jichuzhishi;
 public class This {
     public static void main(String[] args)
     {
-        Thisss s1 = new Thisss();
+        jichuzhishi.Thisss s1 = new jichuzhishi.Thisss();
         s1.name = "zhangsan";
 
         s1.shopping();
 
-        Thisss s2 = new Thisss();
+        jichuzhishi.Thisss s2 = new jichuzhishi.Thisss();
         s2.name = "lisi";
 
         s2.shopping();

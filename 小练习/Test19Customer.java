@@ -1,3 +1,7 @@
+package com.hasaki.dayexer;
+
+import com.hasaki.dayexer.Test19Account;
+
 public class Test19Customer {
     private String firstname;    //名
     private String lastname;    //姓

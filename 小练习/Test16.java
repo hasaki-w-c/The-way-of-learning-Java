@@ -1,4 +1,4 @@
-/*
+package com.hasaki.dayexer;/*
 体会封装性
  */
 

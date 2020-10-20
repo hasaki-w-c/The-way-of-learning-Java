@@ -1,9 +1,9 @@
-/*
+package com.hasaki.dayexer;/*
 题目：将对象作为参数传递给方法
 要求：
 1.定义一个Test17circle类，包含一个double型的radius属性代表圆的半径，一个findArea()方法返回圆的面积。
 2.定义一个类Test17Areas类，在类中定义一个方法printAreas()，该方法的定义如下
-public void printAreas(Test17circle c , int time)
+public void printAreas(com.hasaki.dayexer.Test17circle c , int time)
 在printAreas方法中打印输出1到time之间的每个整数半径值，以及对应的面积。例如，times为5，则输出半径1，2，3，4，5，以及对应圆的面积。
 在main方法中调用printAreas()方法，调用完毕后输出当前半径值。
  */

@@ -1,3 +1,5 @@
+package com.hasaki.dayexer;
+
 import java.util.Scanner;
 
 public class Test17Areas {

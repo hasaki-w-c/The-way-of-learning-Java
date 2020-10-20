@@ -1,3 +1,5 @@
+package com.hasaki.dayexer;
+
 public class Test17circle {
     double redius;
 

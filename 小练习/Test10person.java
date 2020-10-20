@@ -1,3 +1,5 @@
+package com.hasaki.dayexer;
+
 public class Test10person {
     String name;
     int age;

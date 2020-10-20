@@ -24,7 +24,7 @@ public class Zhuren {
     //Zhuren主人类面向的是一个抽象的Pet,不再面向具体的宠物
     //提倡：面向抽象编程，不要面向具体编程。
     //面向抽象编程的好处是，耦合度低，扩展力强。
-    public void feed(Pet pet) { //Pea pet 是一个父类型的引用
+    public void feed(Pet pet) { //Pet pet 是一个父类型的引用
         pet.eat();
     }
 }

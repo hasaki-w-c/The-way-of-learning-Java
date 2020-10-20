@@ -1,3 +1,5 @@
+package com.hasaki.dayexer;
+
 public class Test21b2 {
     public static void main(String[] args) {
         Test21GraphicTools tools = new Test21GraphicTools();

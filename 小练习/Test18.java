@@ -1,4 +1,4 @@
-/*
+package com.hasaki.dayexer;/*
 键盘输入三角形的底和高，调用方法求出其面积。
  */
 

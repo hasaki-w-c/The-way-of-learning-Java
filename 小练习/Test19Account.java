@@ -1,3 +1,5 @@
+package com.hasaki.dayexer;
+
 public class Test19Account {
     private int id;    //账号
     private double balance;    //余额

@@ -1,8 +1,10 @@
-/*
+package com.hasaki.dayexer;/*
 三角形
  */
 
-public class Test21Triangle extends Test21Graphic{
+import com.hasaki.dayexer.Test21Graphic;
+
+public class Test21Triangle extends Test21Graphic {
     private double b1;    //三条边
     private double b2;
     private double b3;

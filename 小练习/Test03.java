@@ -1,4 +1,4 @@
-/*
+package com.hasaki.dayexer;/*
 求100以内的素数，将结果和个数都打印出来
  */
 

@@ -1,4 +1,4 @@
-/*
+package com.hasaki.dayexer;/*
 获取数组a中元素的和，a中的元素通过键盘输入。
  */
 

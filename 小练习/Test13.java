@@ -1,3 +1,5 @@
+package com.hasaki.dayexer;
+
 public class Test13 {
     public static void main(String[] args) {
         Test13 ol = new Test13();

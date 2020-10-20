@@ -1,4 +1,4 @@
-/*
+package com.hasaki.dayexer;/*
 打印如下图
 *
 ***

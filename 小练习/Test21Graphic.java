@@ -1,3 +1,5 @@
+package com.hasaki.dayexer;
+
 import java.lang.reflect.Constructor;
 
 public class Test21Graphic {

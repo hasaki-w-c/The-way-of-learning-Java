@@ -1,3 +1,5 @@
+package com.hasaki.dayexer;
+
 public class Test18TriAngle {
     private double base;
     private double height;

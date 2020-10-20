@@ -1,6 +1,8 @@
-/*
+package com.hasaki.dayexer;/*
 矩形
  */
+
+import com.hasaki.dayexer.Test21Graphic;
 
 public class Test21Rectangle extends Test21Graphic {
     private double length;
