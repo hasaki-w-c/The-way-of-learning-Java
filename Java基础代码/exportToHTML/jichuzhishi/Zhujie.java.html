@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>Zhujie.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #0033b3;}
+.s1 { color: #080808;}
+.s2 { color: #8c8c8c; font-style: italic;}
+.s3 { color: #8c8c8c; font-style: italic;}
+.s4 { color: #1750eb;}
+.s5 { color: #067d17;}
+.ls0 { height: 1px; border-width: 0; color: #c0c0c0; background-color:#c0c0c0}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Zhujie.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">jichuzhishi;</span>
+<span class="s2">/* 
+注解： 
+长什么样？ @注解名 
+ 
+注解是什么？ 
+ 注解也是注释，是代码级别的注释，用代码给代码注释 
+ 
+注解有三个部分组成 
+ （1）声明注解，定义注解 
+     我们开发中，绝大多数都是别人定义好的。 
+ （2）使用注解（重要） 
+     我们开发中，主要是这步 
+ （3）读取注解的信息 
+     我们把读取注解注解信息的代码称为“注解信息处理流程” 
+     如果没有这一步，则前边两步都没有意义 
+     读取注解的信息的代码基本上也是别人写好的 
+     读取注解信息的代码需要“反射”的知识。 
+ 
+ 常见的注解： 
+ 一、系统预定义的三个最最基本的注解 
+ 1.@Override 
+   这是由JDK的核心库定义，读取它是由编译器，例如Javac.exe。 
+   作用：注释这个方法是一个重写的方法，让编译器对这个方法的签名进行格式的检查，是否满足重写的要求。 
+ 
+ 2.@SuppressWarnings(xxx) 
+   这是由JDK的核心库定义，读取它是由编译器，例如Javac.exe。 
+   作用：抑制警告 
+ 
+ 3.@Deprecated 
+   这是由JDK的核心库定义，读取它是由编译器，例如Javac.exe。 
+   作用：告知编译器和程序员这个方法、属性、类等已过时，不建议再使用，如果使用有问题，自己负责。 
+ 
+ 二、用于文档的注解 
+ */</span>
+
+<span class="s2">/**</span>
+ <span class="s2">* </span><span class="s3">@author </span><span class="s2">王琛</span>
+ <span class="s2">* </span><span class="s3">@version </span><span class="s2">jdk14</span>
+ <span class="s2">* </span><span class="s3">@since </span><span class="s2">jdk1.5</span>
+ <span class="s2">* </span><span class="s3">@data </span><span class="s2">2020-8-20</span>
+ <span class="s2">*/</span>
+<span class="s0">public class </span><span class="s1">Zhujie {</span>
+    <span class="s2">/**</span>
+     <span class="s2">* 这是主方法，是Java程序的入口</span>
+     <span class="s2">* </span><span class="s3">@param </span><span class="s2">args String[] 命令行参数</span>
+     <span class="s2">*/</span>
+    <span class="s0">public static void </span><span class="s1">main(String[] args) {</span>
+
+    <span class="s1">}</span>
+<hr class="ls0">    <span class="s2">/**</span>
+     <span class="s2">* 求两个整数的最大值</span>
+     <span class="s2">* </span><span class="s3">@param </span><span class="s2">a int 其中一个整数</span>
+     <span class="s2">* </span><span class="s3">@param </span><span class="s2">b int 其中另一个整肃</span>
+     <span class="s2">* </span><span class="s3">@return </span><span class="s2">int 返回a和b中的较大者</span>
+     <span class="s2">*/</span>
+    <span class="s0">public static int </span><span class="s1">getMax(</span><span class="s0">int </span><span class="s1">a, </span><span class="s0">int </span><span class="s1">b) {</span>
+        <span class="s0">return </span><span class="s1">a &gt; b ? a : b;</span>
+    <span class="s1">}</span>
+<hr class="ls0">    <span class="s2">/**</span>
+     <span class="s2">*求两个整数的商</span>
+     <span class="s2">* </span><span class="s3">@param </span><span class="s2">a int 被除数</span>
+     <span class="s2">* </span><span class="s3">@param </span><span class="s2">b int 除数</span>
+     <span class="s2">* </span><span class="s3">@return </span><span class="s2">int 商，只保留整数部分</span>
+     <span class="s2">* </span><span class="s3">@throws </span><span class="s2">RuntimeException 当除数为0时，会抛出异常</span>
+     <span class="s2">*/</span>
+    <span class="s0">public static int </span><span class="s1">divide(</span><span class="s0">int </span><span class="s1">a, </span><span class="s0">int </span><span class="s1">b) {</span>
+        <span class="s0">if </span><span class="s1">(b == </span><span class="s4">0</span><span class="s1">) {</span>
+            <span class="s0">throw new </span><span class="s1">RuntimeException(</span><span class="s5">&quot;除数不能为0&quot;</span><span class="s1">);</span>
+        <span class="s1">}</span>
+        <span class="s0">return </span><span class="s1">a / b;</span>
+    <span class="s1">}</span>
+<span class="s1">}</span>
+</pre>
+</body>
+</html>

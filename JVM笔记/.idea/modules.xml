@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JVMTest/JVMTest.iml" filepath="$PROJECT_DIR$/JVMTest/JVMTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/深入理解Java虚拟机/Java内存区域与内存溢出/Java内存区域与内存溢出.iml" filepath="$PROJECT_DIR$/深入理解Java虚拟机/Java内存区域与内存溢出/Java内存区域与内存溢出.iml" />
+      <module fileurl="file://$PROJECT_DIR$/深入理解Java虚拟机/深入理解Java虚拟机.iml" filepath="$PROJECT_DIR$/深入理解Java虚拟机/深入理解Java虚拟机.iml" />
+    </modules>
+  </component>
+</project>

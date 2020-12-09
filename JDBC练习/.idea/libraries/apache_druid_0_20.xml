@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="apache-druid-0.20">
+    <ANNOTATIONS>
+      <root url="file://$PROJECT_DIR$/../apache-druid-0.20.0" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../apache-druid-0.20.0" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../apache-druid-0.20.0" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../apache-druid-0.20.0" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../apache-druid-0.20.0" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../apache-druid-0.20.0" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../apache-druid-0.20.0" recursive="false" type="SOURCES" />
+  </library>
+</component>
